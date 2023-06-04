@@ -5,7 +5,6 @@ import threading
 import datetime
 import time
 
-from .driver import Selenium
 from .fetcher import Fetcher
 from .monitor import SpiderMonitor
 from .processor import Processor, Rule
